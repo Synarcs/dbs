@@ -1,0 +1,53 @@
+.jumbotron {
+    background-color: white;
+    text-align: center;
+    padding-top: 7%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.team-post {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.team-post h3 {
+    margin: 0;
+}
+
+.team-post h3::after {
+    content: "";
+    width: 30px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: #1B5299;
+    display: block;
+    margin: 4.5px auto;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 991px) {
+    .jumbotron {
+        padding-top: 18%;
+    }
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 360px) {
+    .jumbotron {
+        padding-top: 30%;
+        padding-bottom: 10px;
+    }
+    .jumbotron h1 {
+        font-size: 140%;
+    }
+    .team-post h3 {
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (max-width: 240px) {}
